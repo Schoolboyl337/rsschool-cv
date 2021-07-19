@@ -21,3 +21,9 @@ function addTask() {
 }
 addButton.onclick = addTask;
 ```
+*Education:*
+1. School
+2. Incomplete higher education
+3. Courses for a young programmer
+
+**English: B2**
