@@ -12,14 +12,34 @@
 <body>
     <header>Sergei Gorobtsev CV</header>
     <main>
-        <p>Skills :</p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>GIT</li>
-            <li>JS</li>
-            <li>VUE</li>
-        </ul>
+        <article>
+            <p>Skills :</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+                <li>JS</li>
+                <li>VUE</li>
+            </ul>
+        </article>
+
+        <article class="code-exampl">
+            <code>
+                <pre>
+        Code example:
+            function addTask() {
+                if(inputTask.value) {
+                  let listItem = createNewElement(inputTask.value,false);
+                  unfinishedTask.appendChild(listItem);
+                  bindTaskEvents(listItem,finishTask)
+                  inputTask.value = ''; 
+                }
+                save();
+            }
+            addButton.onclick = addTask;
+                </pre>
+            </code>
+        </article>
     </main>
     <footer>
         <p>

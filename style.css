@@ -19,9 +19,10 @@ a {
     height: 150px;
 }
 
-.avatar {
-    width: 800px;
-    height: 600px;
+.code-exampl {
+    border: 2px solid black;
+    margin: 2% 20%;
+    padding-right: 55%;
 }
 
 ul {
