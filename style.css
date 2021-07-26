@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+    margin: 0;
+    background-color: pink;
+    font-size: 25px;
+}
+
+header {
+    font-size: 40px;
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.avatar {
+    width: 800px;
+    height: 600px;
+}
+
+ul {
+    display: inline-block;
+}
+
